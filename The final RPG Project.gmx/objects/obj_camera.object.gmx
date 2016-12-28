@@ -68,17 +68,9 @@ else if instance_exists(obj_player) and mouse_check_button(mb_right)
     {
         x += (mouse_x - x) / snapDiv;
     }
-    else
-    {
-        
-    }
     if obj_player.y &gt; view_yview[0] + 128 and obj_player.y &lt; view_yview + (768 - 128)
     {
         y += (mouse_y - y) / snapDiv;
-    }
-    else
-    {
-        
     }
 }
 
@@ -106,7 +98,7 @@ else if instance_exists(obj_player) and mouse_check_button(mb_right)
           <argument>
             <kind>1</kind>
             <string>draw_self();
-//draw_text(view_xview[0] + 32,view_yview[0] + 32,string(viewMouseSnapY) + " " + string(viewMouseSnapX));
+draw_text(view_xview[0] + 32,view_yview[0] + 32,string(timer));
 </string>
           </argument>
         </arguments>
