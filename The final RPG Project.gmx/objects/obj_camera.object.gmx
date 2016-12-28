@@ -78,7 +78,7 @@ else if instance_exists(obj_player) and mouse_check_button(mb_right)
     }
     else
     {
-        //do nothing
+        
     }
 }
 
