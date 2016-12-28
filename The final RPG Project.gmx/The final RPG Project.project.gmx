@@ -30,6 +30,7 @@
     <background>background\background0</background>
     <backgrounds name="Tilesets">
       <background>background\tile_home</background>
+      <background>background\tile_test</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
