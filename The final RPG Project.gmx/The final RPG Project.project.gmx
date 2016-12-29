@@ -23,9 +23,13 @@
       <sprite>sprites\spr_player_idle_left</sprite>
       <sprite>sprites\spr_player_idle_right</sprite>
     </sprites>
+    <sprites name="Enemies">
+      <sprites name="Slime">
+        <sprite>sprites\spr_slime_idle</sprite>
+        <sprite>sprites\spr_slime_move</sprite>
+      </sprites>
+    </sprites>
     <sprite>sprites\sprCamera</sprite>
-    <sprite>sprites\spr_enemy_move</sprite>
-    <sprite>sprites\spr_enemy_idle</sprite>
     <sprite>sprites\spr_enemy2</sprite>
   </sprites>
   <backgrounds name="background">
