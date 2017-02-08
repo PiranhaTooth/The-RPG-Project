@@ -62,8 +62,8 @@ move_towards_point(mouse_x,mouse_y,0);
 x_to = obj_player.x + lengthdir_x(min(130, distance_to_point(mouse_x,mouse_y)), direction);
 y_to = obj_player.y + lengthdir_y(min(130, distance_to_point(mouse_x,mouse_y)), direction);
 
-x += (x_to-x)/25;
-y += (y_to-y)/25;
+x += (x_to-x)/20;
+y += (y_to-y)/20;
 
 view_xview = -(view_wview/2) + x;
 view_yview = -(view_hview/2) + y;
