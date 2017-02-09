@@ -29,6 +29,7 @@
         <sprite>sprites\spr_slime_move</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_save_notifier</sprite>
     <sprite>sprites\sprCamera</sprite>
     <sprite>sprites\spr_enemy2</sprite>
   </sprites>
@@ -41,12 +42,17 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\scr_initialize_global.gml</script>
+    <script>scripts\scr_restart_game.gml</script>
+    <script>scripts\scr_save_game.gml</script>
+    <script>scripts\scr_load_game.gml</script>
     <script>scripts\scr_check_input.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_world</object>
     <object>objects\obj_github_test</object>
     <object>objects\obj_camera</object>
+    <object>objects\obj_save_notifier</object>
     <object>objects\obj_player</object>
     <object>objects\obj_enemy</object>
   </objects>
