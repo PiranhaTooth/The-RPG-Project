@@ -4,11 +4,11 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="3" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,23 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///debug keys and global variables
-//end game if escape is pressed
-if keyboard_check_pressed(vk_escape)
-{
-    game_end();
-}
+            <string>draw_set_alpha(1);
+draw_set_colour(c_white);
+draw_set_font(fnt_menu);
 
-//restart game if R is pressed
-if keyboard_check_pressed(ord("R"))
-{
-    game_restart();
-}
-
-window_set_cursor(cr_none);
-cursor_sprite = spr_cursor_idle;
-
-room_speed = 60;
+draw_text(x, y, "New Game");
 </string>
           </argument>
         </arguments>
