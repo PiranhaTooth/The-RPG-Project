@@ -213,8 +213,7 @@ y = clamp(y, 0, room_height);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_save_game(true);
-instance_create(x,y,obj_save_notifier);
+            <string>instance_create(x,y,obj_save_notifier);
 </string>
           </argument>
         </arguments>
