@@ -54,7 +54,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_world</object>
-    <object>objects\obj_github_test</object>
     <object>objects\obj_camera</object>
     <object>objects\obj_save_notifier</object>
     <object>objects\obj_player</object>
