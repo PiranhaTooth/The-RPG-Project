@@ -45,10 +45,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_initialize_global.gml</script>
     <script>scripts\scr_restart_game.gml</script>
-    <script>scripts\scr_save_game.gml</script>
-    <script>scripts\scr_load_game.gml</script>
     <script>scripts\scr_check_input.gml</script>
     <script>scripts\scr_menu.gml</script>
   </scripts>
