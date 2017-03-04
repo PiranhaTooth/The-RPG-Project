@@ -2,32 +2,32 @@ switch (mpos)
 {
     case 0:
     {
-        //continue game
-        room_goto(r_test);
-        
+        if file_exists("Data\save")
+        {
+            scr_loadgame();
+        }
     break;
     }
     
     case 1:
     {
-        //start new game
-        
-    break;
+        room_goto(r_test);
+        scr_newsave();
+        //start new game        
+        break;
     }
     
     case 2:
     {
-        //options
-        
-    break;
+        //options        
+        break;
     }
     
     case 3:
     {
         //quit game
-        game_end();
-        
-    break;
+        game_end();        
+        break;
     }
     
     default: break;

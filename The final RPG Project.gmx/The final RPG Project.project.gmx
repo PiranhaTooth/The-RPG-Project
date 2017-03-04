@@ -14,6 +14,7 @@
       <sprite>sprites\spr_cursor_attack</sprite>
     </sprites>
     <sprites name="Player">
+      <sprite>sprites\spr_player_start</sprite>
       <sprite>sprites\spr_player_up</sprite>
       <sprite>sprites\spr_player_down</sprite>
       <sprite>sprites\spr_player_left</sprite>
@@ -45,9 +46,15 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\scr_init_variables.gml</script>
     <script>scripts\scr_restart_game.gml</script>
     <script>scripts\scr_check_input.gml</script>
     <script>scripts\scr_menu.gml</script>
+    <scripts name="Save &amp; Load">
+      <script>scripts\scr_newsave.gml</script>
+      <script>scripts\scr_savegame.gml</script>
+      <script>scripts\scr_loadgame.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_menu</font>
@@ -56,6 +63,7 @@
     <object>objects\obj_world</object>
     <object>objects\obj_camera</object>
     <object>objects\obj_save_notifier</object>
+    <object>objects\obj_player_start</object>
     <object>objects\obj_player</object>
     <object>objects\obj_enemy</object>
     <objects name="Main Menu">
@@ -66,6 +74,7 @@
     <room>rooms\r_init</room>
     <room>rooms\r_main_menu</room>
     <room>rooms\r_test</room>
+    <room>rooms\r_test2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
