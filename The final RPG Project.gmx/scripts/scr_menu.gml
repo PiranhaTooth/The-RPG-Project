@@ -11,9 +11,10 @@ switch (mpos)
     
     case 1:
     {
-        room_goto(r_test);
-        scr_newsave();
-        //start new game        
+        //start new game
+        //room_goto(r_test);
+        room_goto(r_character_select);
+        scr_newsave();      
         break;
     }
     

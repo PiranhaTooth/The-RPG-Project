@@ -15,6 +15,7 @@ if file_exists("Data\save")
         global.save_player_x = ds_map_find_value(save_map,"player_x");
         global.save_player_y = ds_map_find_value(save_map,"player_y");
         global.save_player_room = ds_map_find_value(save_map,"player_room");
+        global.save_player_gender = ds_map_find_value(save_map,"player_gender");
         
         var map_md5 = ds_map_find_value(save_map,"map_md5");
         if !is_string(map_md5)
